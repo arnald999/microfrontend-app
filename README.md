@@ -1,1 +1,1 @@
-# microfrontend-app
+# Micro-Frontend App
