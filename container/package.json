@@ -31,7 +31,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "start": "webpack serve --open",
+    "start": "webpack serve --hot --progress --open",
     "build": "webpack --config webpack.config.js",
     "serve": "serve dist -p 3002",
     "clean": "rm -rf dist"

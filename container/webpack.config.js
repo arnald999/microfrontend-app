@@ -12,6 +12,7 @@ module.exports = (env, argv) => {
   return {
     entry: "./src/index.ts",
     mode: process.env.NODE_ENV || "development",
+    target: 'web', // To tackle the webpack-dev-server issue of webpack 5
     devServer: {
       port: 3000,
       open: true,
